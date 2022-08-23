@@ -1,0 +1,24 @@
+{
+  "name": "competitive-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepare": "yarn simple-git-hooks",
+    "ts-node": "ts-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@syakoo/emoji-prefix-commit": "git+https://github.com/syakoo/emoji-prefix-commit",
+    "simple-git-hooks": "^2.8.0",
+    "typescript": "^4.7.4"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx emoji-prefix-commit"
+  }
+}
