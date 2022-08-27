@@ -1,5 +1,5 @@
 # a.k.a. BIT (Binary Indexed Tree)
-class FenwickTree:
+class FenWickTree:
     def __init__(self, n):
         self._n = n
         self.data = [0] * n
@@ -37,7 +37,7 @@ class FenwickTree:
 
 
 A = [1, 2, 3, 4, 5, 6, 7, 8]
-FW = FenwickTree(len(A))
+FW = FenWickTree(len(A))
 
 for i, a in enumerate(A):
     FW.add(i, a)
