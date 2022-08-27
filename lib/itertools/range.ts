@@ -7,5 +7,3 @@ function* range(start: number, end: number, step = 1) {
     yield i && i * symbol
   }
 }
-
-export { range }
